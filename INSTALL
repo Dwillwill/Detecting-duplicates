@@ -1,12 +1,11 @@
-1.Introduction
-A tool that can find and sort out duplicate files and different files from several directory in a disk or disk image 
-and generate a new directory set with every different files, making the directory clear and improving memory utilization.
-
-2.Limitations
-Detecting duplicates can find and sort out duplicate files and different files from several directory in a disk or
-disk image and generate a new directory set with every different files. The project will finish when we see the new 
-directory with different files on the desktop of Windows. There are 3 limitations as following:
-(1)The tool will be limited to the TXT type of files.
-(2)The tool will be limited to the Fat32 type of partition.
-(3)The tool find the duplicate files only by their names. In other word, the tool judge the duplicate files when their 
-   names are the same. It can’t find by the validation of the data entered.
+1.介绍
+一种工具，它可以从磁盘或磁盘映像中的多个目录中查找和排序重复的文件和不同的文件并为每个不同的文件生成一个新的目录集，使目录清晰，提高内存利用率。
+2.限制
+检测重复可以找到和排序重复的文件和不同的文件从几个目录在一个磁盘或磁盘映像和生成一个新的目录集与每个不同的文件。当我们看到新项目时，这个项目就会结束
+在Windows桌面上具有不同文件的目录。有以下3个限制:
+(1)工具仅限于TXT文件类型。
+(2)工具将仅限于Fat32类型的分区。
+(3)工具只根据重复文件的名称查找。换句话说，当重复的文件名字是一样的。通过输入数据的验证，它找不到。
+   
+3.代码文件：Creatflie.java Settxt.java TXT.java
+4.测试磁盘映像：imageMax.dd
